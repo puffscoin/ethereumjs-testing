@@ -1,10 +1,8 @@
 # SYNOPSIS  
-[![Build Status](https://img.shields.io/travis/ethereumjs/ethereumjs-testing.svg?branch=master&style=flat-square)](https://travis-ci.org/ethereumjs/ethereumjs-testing)
-[![Gitter](https://img.shields.io/gitter/room/ethereum/ethereumjs.svg?style=flat-square)]() 
 
 [![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
 
-Testing utilities for the ethereumjs stack.
+Testing utilities for the puffscoinjs stack.
 
 Uses the offical [Ethereum Tests](https://github.com/ethereum/tests).
 
@@ -25,7 +23,7 @@ your dependencies.
 ## API
 
 ```
-const testing = require('ethereumjs-testing')
+const testing = require('puffscoinjs-testing')
 ```
 
 #### `testing.getTestsFromArgs(testType, onFile, args = {})`
