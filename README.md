@@ -4,7 +4,7 @@
 
 Testing utilities for the puffscoinjs stack.
 
-Uses the offical [Ethereum Tests](https://github.com/ethereum/tests).
+Uses the offical PUFFScoin Tests(https://github.com/puffscoin/tests).
 
 To fetch the latest tests:
 ```
@@ -16,9 +16,6 @@ cd ..
 git add [SUBMODULE_FOLDER]
 git commit -m "[MESSAGE_ON_TEST_RELEASE_UPDATE]"
 ```
-
-Releases on npm are outdated, latest releases are only done as tagged versions on GitHub due to npm size constraints, use e.g. ``git+https://github.com/ethereumjs/ethereumjs-testing.git#[LATEST_TAG_VERSION]`` in
-your dependencies.
 
 ## API
 
